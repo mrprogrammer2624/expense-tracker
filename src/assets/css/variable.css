@@ -1,0 +1,44 @@
+:root {
+  /* Fonts Family */
+  --font-primary: "Lexend", Arial, sans-serif, system-ui, -apple-system;
+
+  /* Colors */
+  --clr-primary: rgba(var(--clr-primary-rgb), 1);
+  --clr-black: #131313;
+  --clr-white: #fff;
+  --clr-gray: rgba(var(--clr-gray-rgb), 1);
+  --clr-success: #427b2e;
+  --clr-error: #ff7171;
+  --clr-alert: #f7b731;
+
+  /* RGBA */
+  --clr-primary-rgb: 226, 83, 25;
+  --clr-gray-rgb: 162, 161, 168;
+
+  /* Header Height */
+  --header-height: 8rem;
+
+  /* Icons Size */
+  --icon-xl: 5rem;
+  --icon: 24px;
+
+  /* Global Font Size */
+  --html: 10px;
+
+  /* Font  Size */
+  --text-5xl: 3rem;
+  --text-4xl: 24px;
+  --text-3xl: 20px;
+  --text-2xl: 18px;
+  --text-xl: 16px;
+  --text-lg: 14px;
+  --text-sm: 12px;
+
+  /*  Spacing */
+  --space-2xl: 24px;
+  --space-xl: 20px;
+  --space-lg: 16px;
+  --space-md: 12px;
+  --space-sm: 8px;
+  --space-xs: 4px;
+}

@@ -1,0 +1,15 @@
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  min-height: 40px;
+}
+
+.Button:global.ant-btn-sm {
+  min-height: unset;
+}
+
+.Button:global.ant-btn > span {
+  display: flex;
+}
